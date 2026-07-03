@@ -1,46 +1,67 @@
 html {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
   }
 
-/* Task4 */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-}
 
-.main-footer {
-    margin-top: auto; /* Empuja el footer al fondo */
-    background-color: #86d7e7;
-    color: #03256c;
-    padding: 20px 0;
+  body {
+    background-color: #FFFFFF; /* White - Fondo limpio */
+    color: #03256C;            /* Imperial Blue - Texto principal */
     font-family: sans-serif;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+    margin: 0;
     padding: 0;
 }
 
-.footer-links a {
-    color: #ffffff;
-    text-decoration: none;
+.contenido-principal {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
 }
 
-.footer-links a:hover {
-    text-decoration: underline;
-} 
+h1 {
+    color: #03256C;            /* Imperial Blue */
+    text-align: center;        /* Añadido: Centrado para hacer juego con el subtítulo */
+    font-size: 2.5rem;         /* Añadido: Tamaño controlado */
+    margin-bottom: 10px;
+}
 
-/* Task4 */
+.subtitulo-cocina {
+    color: #1768AC;            /* Ocean Deep */
+    text-align: center;
+    font-size: 1.3rem;         /* Añadido: Tamaño controlado */
+    font-style: sans-serif;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #2541B2;            /* Persian Blue */
+    font-size: 1.5rem;
+}
+
+.seccion-bloque {
+    border: 1px solid #06BEE1; /* Borde sutil Sky Surge */
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.fila-layout {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.columna-texto, 
+.columna-imagen {
+    flex: 1;
+}
+
+.imagen-adaptable {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #1768AC; /* Borde Ocean Deep */
+}
+>>>>>>> origin/pagina-quienes-somos
