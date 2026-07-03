@@ -3,3 +3,50 @@ html {
     width: 100%;
   }
   
+  .nombre{
+    
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    font-size: 30px;
+    color:#03256C;
+    border-radius: 6px;
+    border: 1px solid #1768AC;
+  }
+  
+  header{
+    background-color:#06BEE1;
+    border-radius: 6px;
+    border: 1px solid
+    
+  }
+
+  nav{
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    font-size: 20px;
+  }
+
+ nav a{
+    color:#03256C;
+    text-decoration: none;
+ }
+
+ nav a:hover{
+    background-color: #FFFFFF;
+    padding:1px;
+ }
+
+ #inicio{
+    color:#03256C;
+ }
+
+ #quienessomos{
+    color:#03256C;
+ }
+
+ #contacto{
+    color:#03256C;
+ }
