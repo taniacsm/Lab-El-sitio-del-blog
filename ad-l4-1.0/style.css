@@ -2,4 +2,63 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+
+  body {
+    background-color: #FFFFFF; /* White - Fondo limpio */
+    color: #03256C;            /* Imperial Blue - Texto principal */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido-principal {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #03256C;            /* Imperial Blue */
+    text-align: center;        /* Añadido: Centrado para hacer juego con el subtítulo */
+    font-size: 2.5rem;         /* Añadido: Tamaño controlado */
+    margin-bottom: 10px;
+}
+
+.subtitulo-cocina {
+    color: #1768AC;            /* Ocean Deep */
+    text-align: center;
+    font-size: 1.3rem;         /* Añadido: Tamaño controlado */
+    font-style: sans-serif;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #2541B2;            /* Persian Blue */
+    font-size: 1.5rem;
+}
+
+.seccion-bloque {
+    border: 1px solid #06BEE1; /* Borde sutil Sky Surge */
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.fila-layout {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.columna-texto, 
+.columna-imagen {
+    flex: 1;
+}
+
+.imagen-adaptable {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #1768AC; /* Borde Ocean Deep */
+}
