@@ -1,0 +1,62 @@
+:root {
+    --imperial-blue: #03256C;
+    --persian-blue: #2541B2;
+    --ocean-deep: #1768AC;
+    --sky-surge: #06BEE1;
+    --white: #FFFFFF;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+}
+
+.contacto{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.contenedor-formulario{
+    max-width: 120rem;
+    margin: 0 auto;
+    
+}
+
+
+fieldset{
+    border-style: none;
+}
+
+
+.formulario{
+    background-color: var(--persian-blue);
+    padding: 1.5rem;
+}
+
+.campos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.campos legend{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.etiqueta{
+    display: inline;
+}
